@@ -1,2 +1,2 @@
 # AuthSfApiDemo
-Salesforce API authentification Demo in NodeJs
+Salesforce API authentification demo in NodeJs
