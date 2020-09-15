@@ -11,6 +11,7 @@ const connAuth = new sf.Connection({
 });
 var getCredentials = function() {
   return new Promise(function (resolve, reject) {
+      // Don't forget to update this function with your credentials
         connAuth.login('elmehdi.touimi-benjelloun@lineup7.fr', 'HelloWorld0', function(err, userInfo){
         if (err) { 
           reject(err);
